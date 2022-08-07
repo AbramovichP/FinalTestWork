@@ -1,5 +1,4 @@
-﻿// Метод создает массив из введеных пользователем элементов с клавиатуры
-// elements - кол-во элементов массива(задается пользователем с клавиатуры)
+﻿
 string[] CreateArrayWords(int elements)
 {
     string[] words = new string[elements];
@@ -13,8 +12,7 @@ string[] CreateArrayWords(int elements)
     }
     return words;
 }
-//Метод принимает на вход массив и считает кол-во искомых элементов меньше или равных 3
-// words - входящий массив
+
 int ElementCount(string[] words)
 {
     int count = 0;
@@ -23,9 +21,7 @@ int ElementCount(string[] words)
     
     return count;
 }
-//Метод формирует новый массив из элементов входящего массива согласно условиям задачи
-// words - входящий массив
-// count - длина нового массива
+
 string[] FormingArrayStrings(string[] words, int count)
 {
     string[] wordArray = new string[count];
