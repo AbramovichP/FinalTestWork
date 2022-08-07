@@ -50,4 +50,3 @@ Console.WriteLine("Первоначальный массив: [" + string.Join("
 string[] collectedWord = FormingArrayStrings(mywords,ElementCount(mywords));
 Console.Write("Сформированный массив из строк длинна которых меньше либо равна 3 символа: ");
 Console.WriteLine("[" + string.Join(", ",collectedWord) + "]");
-
